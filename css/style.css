@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto';
+}
+.menu{
+    padding: 20px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+.menu a:hover{
+    color: orange;
+}
+h1{
+    font-size: 30px;
+    margin: 0;
+    color: burlywood;
+}
+.home_section{
+    display: flex;
+}
+.home_section img{
+    width: 200px;
+    border-radius: 50%;
+    padding-right: 50px;
+}
+.descprition{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+.about_section p{
+    padding-left: 25px;
+}
+
+th, td{
+    width: 300px;
+    text-align: left;
+    height: 50px;
+}
+th{
+    color: orange;
+}
+table{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.formulaire{
+    margin-top: 50px;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.575);
+}
+.formulaire input, textarea{
+    padding: 10px;
+    margin-bottom: 35px;
+}
+.formulaire label{
+    margin-bottom: 10px;
+}
+.work_section li{
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}

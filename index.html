@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="#Home">Home</a></li>
             <li><a href="#aboutMe">About</a></li>
@@ -15,24 +16,29 @@
             <li><a href="#contactMe">Contact</a></li>
         </ul>
     </nav>
-    <section id="Home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/it1rTvBcfRg?si=vqZInybM3eVVezki" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+    <section class="home_section" id="Home">
+        <img src="Media/images/img.png">
+        <section class="descprition">
+            <h1>Asmaâ Harbach</h1>
+            <p>Développeuse web</p>
+        </section>
     </section>
-    <section class="aboutMe">
+    <section class="about_section container" id="aboutMe">
         <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde, optio ducimus aliquid inventore est eos reprehenderit? Ullam, incidunt nemo.</p>
+        <p>JE SUIS UNE DEVELOPPEUSE WEB, JE POSSEDE UNE SOLIDE BASE DE EN HTML CSS ET PHP.</p>
     </section>
-    <section class="myWork">
-        <ul>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-        </ul>
+    <section class="work_section container" id="myWork">
+        <h1>Projets Académiques</h1> 
+        <ol>
+            <li><b>Site E-commerce :</b> Technologies utilisées : WordPress, WooCommerce .</li>
+            <li><b>Site E-commerce :</b> Technologies utilisées : HTML, CSS, PHP, MySQL</li>
+            <li><b>Application de programme alimentaire et sportif :</b>  Technologies utilisées : React, Bootstrap et API Php .</li>
+        </ol>
     </section>
-    <section class="resum">
+    <section class="resum_section container" id="resum">
         <table>
+            <h1>Expériences</h1>
             <tr>
                 <th>Year</th>
                 <th>Position</th>
@@ -50,15 +56,20 @@
             </tr>
         </table>
     </section>
-    <section class="contactMe">
-        <label>Name :</label>
-        <input type="text">
-        <label>Email :</label>
-        <input type="email">
-        <label>Message :</label>
-        <textarea></textarea>
-        <button>Send Message</button>
+    <section class="contact_section container" id="contactMe">
+        <h1>Contactez-moi</h1>
+        <div class="formulaire">
+            <label>Name :</label>
+            <input type="text">
+            <label>Email :</label>
+            <input type="email">
+            <label>Message :</label>
+            <textarea></textarea>
+            <button>Send Message</button>
+        </div>
+        
     </section>
+    <hr>
     <footer>
         <p>&copy2024 Lorem ipsum dolor sit amet.
         </p>
